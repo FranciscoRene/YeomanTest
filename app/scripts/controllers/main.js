@@ -8,10 +8,12 @@
  * Controller of the yeomanApp
  */
 angular.module('yeomanApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
+  .controller('MainCtrl', function ($scope) {
+    $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
-      'Karma'
+      'Karma',
+      'PHP',
+      'Codeigniter'
     ];
   });
